@@ -1,0 +1,35 @@
+
+@font-face {
+ font-family: 'icomoon';
+ src:url('../fonts/icomoon.eot?6npck9');
+ src:url('../fonts/icomoon.eot?#iefix6npck9') format('embedded-opentype'),
+ url('../fonts/icomoon.woff?6npck9') format('woff'),
+ url('../fonts/icomoon.ttf?6npck9') format('truetype'),
+ url('../fonts/icomoon.svg?6npck9#icomoon') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+.items-sold{
+	clear: both;
+	display: block;
+	padding: 8px 0px;	
+}
+
+.items-sold span{
+	display: inline-block;
+}
+
+.items-sold span:before{
+	content: '\e900';
+    font-family: 'icomoon';
+    speak: none;
+    position: relative;
+	margin-right: 5px;
+	font-size: 120%;	
+}
+
+
+
+
