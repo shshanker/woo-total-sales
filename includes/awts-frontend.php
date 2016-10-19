@@ -69,6 +69,21 @@ class Woo_Total_Sales_Frontend extends Woo_Total_Sales{
 
 	public function awts_display_total_sales( $price='', $product='' ){  
 
+		$only_backend = get_option('woo_total_sales_single_product_only_be'); 
+		$only_single_product = get_option('woo_total_sales_single_product_only_fe'); 
+
+		//check if visibile only on backend
+		if( isset($only_backend) && $only_backend == 'yes' ){
+				if(!is_admin())
+				return $price;
+			}
+
+		//check if visibile only on single product page
+		if( isset($only_single_product) && $only_single_product == 'yes' ){
+				if(!is_product() && !is_admin())
+				return $price;
+			}	
+
 		//From admin setting
 		$singular 	= get_option('woo_total_sales_singular');
 		$plural 	= get_option('woo_total_sales_plural');

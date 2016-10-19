@@ -4,7 +4,7 @@ Donate link: https://github.com/shshanker/woo-total-sales
 Tags: Woo Total Sales, woo-commerce, price, custom, products, shop, total sales
 Requires at least: 3.0.1
 Tested up to: 4.5.3
-Stable tag: 2.0.0
+Stable tag: 2.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,13 +22,17 @@ Contribution link: https://github.com/shshanker/woo-total-sales
 
 ### The Plugin Features:
 
-* Total sales dashboard under WooCommerce product setting section (New).
+* New feature - Visible only on single product page (frontend).
 
-* Overview total sales, number of products, shipping costs and applied disocunt (New).
+* New feature - Visible only on backend.
 
-* Enable disable On-hold-order to Total Sales count  (New).
+* Total sales dashboard under WooCommerce product setting section.
 
-* Backend Total Sales overview metabox for indivdual product (New).
+* Overview total sales, number of products, shipping costs and applied disocunt.
+
+* Enable disable On-hold-order to Total Sales count.
+
+* Backend Total Sales overview metabox for indivdual product.
 
 * Total sales text - Enables WooCommerce shop manager to display total sales with product price with singular and plural forms of the counting number.
 

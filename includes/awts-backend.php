@@ -145,6 +145,7 @@ class Woo_Total_Sales_backend extends Woo_Total_Sales{
 			'desc'     => __( 'Also Include On-hold order to Total Sales', 'woocommerce' ),					
 		);
 
+
 		$awtstotalsales[] = array(
 			'title'    	=> __( 'Singular total sales text', 'woo-total-sales' ),
 			'css'      => 'min-width:350px;',
@@ -188,6 +189,28 @@ class Woo_Total_Sales_backend extends Woo_Total_Sales{
 			'desc_tip'	=> true,
 			'placeholder' => __( '#47a106', 'woo-total-sales' ),
 		);
+
+		$awtstotalsales[] = array(
+			'title'    	=> __( 'Visible only on single product page (frontend)', 'woo-total-sales' ),
+			'id'       	=> 'woo_total_sales_single_product_only_fe',
+			'type'     	=> 'checkbox',
+			'desc_tip'  => __( 'If this option is checked, it only visible on single product page on frontend but not on shop page.', 'woo-total-sales' ),
+			'css'       => 'min-width:350px;',
+			'default'	=> '',
+			'desc'     => __( 'Total sales only visible on frontend single product page', 'woocommerce' ),					
+		);
+
+		$awtstotalsales[] = array(
+			'title'    	=> __( 'Visbile only on backend', 'woo-total-sales' ),
+			'id'       	=> 'woo_total_sales_single_product_only_be',
+			'type'     	=> 'checkbox',
+			'desc_tip'  => __( 'If this option is checked, it will only visible in backend single product admin page. it helps shopmanager to track the sales of the product but will not display to the customer.', 'woo-total-sales' ),
+			'css'       => 'min-width:350px;',
+			'default'	=> '',
+			'desc'     => __( 'Visbile only on backend, track them but do not disclose sales to the customers', 'woocommerce' ),					
+		);
+		
+		
 
 		$awtstotalsales[] = array( 'type' => 'sectionend', 'id' => 'woo_total_sales_sectionend');
 

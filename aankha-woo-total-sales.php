@@ -23,7 +23,7 @@ if ( ! class_exists( 'Woo_Total_Sales' ) ) :
 		 *
 		 * @var string
 		 */
-		const VERSION = '2.0.0';
+		const VERSION = '2.5.0';
 
 		/**
 		 * Instance of this class.
